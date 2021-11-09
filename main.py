@@ -1,7 +1,11 @@
 from model.train import train
+from utils.plot import inspect_data
 
 def main():
     '''main function.'''
+    # inspect dataset and visualize.
+    inspect_data()
+    
     # perform the training step.
     model = train(save=False)
 
