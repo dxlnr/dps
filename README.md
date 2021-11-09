@@ -32,5 +32,5 @@ python main.py
 The main goal is to predict the 'mpg' parameter based on various others as fuel efficiency (MPG) is a function of many different other parameters. The first image shows some general information about the data.
 </p>
 <p align="center">
-  <img width="85%" height="200" src="https://github.com/frommwonderland/dps/blob/main/assets/dps_data.svg">
+  <img width="98%" height="400" src="https://github.com/frommwonderland/dps/blob/main/assets/dps_data.svg">
 </p>
