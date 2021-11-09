@@ -34,3 +34,15 @@ The main goal is to predict the 'mpg' parameter based on various others as fuel 
 <p align="center">
   <img width="98%" height="400" src="https://github.com/frommwonderland/dps/blob/main/assets/dps_data.svg">
 </p>
+
+<p align="justify">
+The model is a simple multi-layer-perceptron. One example run with the loss and the result is shown in the following:
+</p>
+
+<p align="center">
+  <img width="98%" height="250" src="https://github.com/frommwonderland/dps/blob/main/assets/loss_dps.svg">
+</p>
+
+```
+MPG prediction: 13.5
+```

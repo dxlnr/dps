@@ -1,13 +1,17 @@
 from model.train import train
-from utils.plot import inspect_data
+from utils.data import calc_real_mpg_value
+from utils.plot import *
 
 def main():
     '''main function.'''
     # inspect dataset and visualize.
-    inspect_data()
-    
+    # inspect_data()
+
     # perform the training step.
     model = train(save=False)
+
+    # plot loss
+    # plot_loss(model)
 
     # testing the model.
     test_mpg = [1, 2, 3, 2, -2, -1, -2, -1, 0]
